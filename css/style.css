@@ -377,11 +377,12 @@ nav li {
 
 .main-carousel {
     text-align: center;
+    width: 100%;
 }
 
 .carousel-cell {
     width: 100%;
-    padding: 3rem 2rem;
+    padding: 3rem 2rem; 
 }
 
  /* newsletter styles */
@@ -552,6 +553,11 @@ footer a {
 
      /* carousel styles  */
 
+    .carousel.flex-content-wrapper {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+
     .carousel-cell {
         width: 50%;
     }
@@ -571,6 +577,10 @@ footer a {
     .flex-content-wrapper {
         flex-flow: row wrap;
         justify-content: space-between;
+        max-width: 600px;
+    }
+
+    footer .flex-content-wrapper {
         max-width: 100%;
     }
 
@@ -602,5 +612,63 @@ footer a {
     .hide-text {
         display: inline;
     }
+
+}
+
+@media only screen and (min-width: 1240px) {
+    footer {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    footer .flex-content-wrapper {
+        max-width: 1240px;
+    }
+
+    .footer-content {
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .carousel.flex-content-wrapper {
+        max-width: 1240px; 
+        margin: 0 auto;
+    }
+
+    header {
+        max-width: 1240px;
+    }
+
+    .banner {
+        height: 550px;
+    }
+
+    .carousel-cell {
+        width: 25%;
+    }
+
+    .main-carousel {
+        max-width: 1240px;
+    }
+
+    .featured-highlight .content-padding--top-bottom.content-padding--left-right {
+        margin: 0 4rem;
+        width: 720px;
+    }
+
+     .newsletter .flex-content-wrapper {
+        max-width: 720px;
+     }
+
+     .sign-up-form input[type=email] {
+        width: 75%;
+        position: aboslute;
+     }
+
+     .sign-up-form input[type=submit] {
+         position: absolute;
+         left: 67%;
+     }
+
 
 }
