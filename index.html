@@ -21,7 +21,7 @@
 <body>
 
     <div class="flex-container flex-container--center-all flex-container--fixed">
-            <header class="flex-wrapper--desktop flex-wrapper--space-between">
+            <header class="flex-wrapper flex-wrapper--space-between">
                 <!--logo here-->
                 <div class="logo logo--text-left">
                     <img src="images/aloha-logo.svg" alt="Aloha Logo">
@@ -64,22 +64,22 @@
         <!--shop catagories-->
         <section class="categories">
              <div class="product-categories"> 
-                <div class="category--wide category--border mens">
+                <div class="category-wide category-border cat-pos-1">
                     <span class="category-name"><a href="#mens">Men's</a></span> 
                 </div>
-                <div class="category--square category--border trends">
+                <div class="category-square category-border cat-pos-2">
                     <span class="category-name"><a href="#trends">Trends</a></span> 
                 </div>
-                <div class="category--square category--border glasses">
+                <div class="category-square category-border cat-pos-3">
                     <span class="category-name"><a href="#mens">Glasses</a></span> 
                 </div>
-                <div class="category--square category--border sale">
+                <div class="category-square category-border cat-pos-4">
                     <span class="category-name"><a href="#mens">Sale</a></span> 
                 </div>
-                <div class="category--square category--border bags">
+                <div class="category-square category-border cat-pos-5">
                     <span class="category-name"><a href="#mens">Bags</a></span> 
                 </div>
-                <div class="category--wide category--border womens">
+                <div class="category-wide category-border cat-pos-6">
                     <span class="category-name"><a href="#mens">Women's</a></span> 
                 </div>
              </div> 
@@ -163,25 +163,26 @@
 
         <!--footer-->
         <footer>
-            <div class="flex-wrapper--desktop flex-wrapper--space-between">
-                <div class="container">
-                    <div class="footer-about-us">
-                        <div class="copyright">
-                            <p>© 2017 Aloha Apparel Co.</p>
-                            <p>Powered by HTML and CSS</p>
-                        </div>
+            <div class="flex-content-wrapper">
+                    <div class="footer-about-us content-padding--left-right">
+                        <div class="footer-about-us-container">
+                            <div class="copyright">
+                                <p>© 2017 Aloha Apparel Co.</p>
+                                <p>Powered by HTML and CSS</p>
+                            </div>
 
-                        <div class="contact">
-                            <p>604-604-6040. <a class="footer-email" href="">info@alohaapparel.com</a></p>
-                        </div>
+                            <div class="contact">
+                                <p>604-604-6040. <a class="footer-email" href="">info@alohaapparel.com</a></p>
+                            </div>
 
-                        <div class="location">
-                            <p class="footer-address">1490 W Broadway</p>
-                            <p class="footer-address">Vancouver, BC, Canada</p>
+                            <div class="location">
+                                <p class="footer-address">1490 W Broadway</p>
+                                <p class="footer-address">Vancouver, BC, Canada</p>
+                            </div>
                         </div>
                     </div>
 
-                    <div class="social-media-footer">
+                    <div class="social-media-footer content-padding--left-right">
                         <ul>
                             <li><a href="#facebook"><i class="fa fa-facebook" aria-hidden="true"></i><span class="hide-text">Facebook</span></a></li>
                             <li><a href="#twitter"><i class="fa fa-twitter" aria-hidden="true"></i><span class="hide-text">Twitter</span></a></li>
@@ -189,7 +190,6 @@
                             <li><a href="#pintrest"><i class="fa fa-pinterest" aria-hidden="true"></i><span class="hide-text">Pintrest</span></a></li>
                             <li><a href="#googleplus"><i class="fa fa-google" aria-hidden="true"></i><span class="hide-text">Google+</span></a></li>
                         </ul>
-                    </div>
                 </div>
             </div>
         </footer> <!--EOF foooter-->
@@ -203,21 +203,9 @@
             contain: true,
             draggable: true,
             prevNextButtons: false,
-            groupCells: true,
+            autoPlay: true,
+            groupCells: true
         });
-
-        $('.carousel-cell').hover(
-            function() {
-                $('.main-carousel').flickity({
-                // options
-                autoPlay: true,
-            });
-            }, function() {
-                $('.main-carousel').flickity({
-                // options
-                autoPlay: false,
-            });
-            });
     </script>
 </body>
 </html>
