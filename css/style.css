@@ -525,6 +525,12 @@ footer a {
         padding: 0;
     }
 
+     /* featured highlight styles */
+
+     .featured-highlight .container{
+        max-width: 720px;
+     }
+
      /* category styles */
 
     .category-wide {
@@ -553,9 +559,12 @@ footer a {
 
      /* carousel styles  */
 
+    .main-carousel {
+        max-width: 100%;
+    }
+
     .carousel.flex-content-wrapper {
-        max-width: 600px;
-        margin: 0 auto;
+        max-width: 100%;
     }
 
     .carousel-cell {
@@ -563,7 +572,16 @@ footer a {
     }
 
     .carousel-cell img {
-        width: 100%;
+        max-width: 100%;
+    }
+
+     /* newsletter styles */
+    .sign-up-form input[type=email] {
+        width: 75%;
+    }
+
+    .sign-up-form input[type=submit] {
+        left: 67%;
     }
 
      /* footer styles */
@@ -576,8 +594,13 @@ footer a {
 
     .flex-content-wrapper {
         flex-flow: row wrap;
-        justify-content: space-between;
-        max-width: 600px;
+        justify-content: space-between; 
+        max-width: 720px;
+    }
+
+    .popular-products .flex-content-wrapper {
+        display: block;
+        margin: 0;
     }
 
     footer .flex-content-wrapper {
@@ -634,10 +657,6 @@ footer a {
         justify-content: center;
     }
 
-    .carousel.flex-content-wrapper {
-        max-width: 1240px; 
-        margin: 0 auto;
-    }
 
     header {
         max-width: 1240px;
@@ -645,6 +664,11 @@ footer a {
 
     .banner {
         height: 550px;
+    }
+
+    .carousel.flex-content-wrapper {
+        max-width: 1240px; 
+        margin: 0 auto;
     }
 
     .carousel-cell {
@@ -668,11 +692,8 @@ footer a {
         width: 75%;
         position: aboslute;
      }
-
-     .sign-up-form input[type=submit] {
-         position: absolute;
-         left: 67%;
-     }
-
-
 }
+
+/* body * {
+    border: 1px solid red;
+} */
