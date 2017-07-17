@@ -623,11 +623,15 @@ footer a {
 
     footer .flex-content-wrapper {
         max-width: 1240px;
+        width: 100%;
+        justify-content: space-between;
     }
 
     .footer-content {
         margin: 0 auto;
         width: 100%;
+        display: flex;
+        justify-content: center;
     }
 
     .carousel.flex-content-wrapper {
