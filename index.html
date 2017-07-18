@@ -23,12 +23,15 @@
             <header class="flex-wrapper flex-wrapper--space-between">
                 <!--logo here-->
                 <div class="logo logo--text-left">
-                    <img src="images/aloha-logo.svg" alt="Aloha Logo">
+                    <a href="#"><img src="images/aloha-logo.svg" alt="Aloha Logo"></a>
                 </div>
 
                 <!--cart button-->
                 <div class="cart cart--text-right">
-                    <img src="images/cart-icon.svg" alt="Cart Button">
+                    <div class="cart-container">
+                    <a href="#"><img src="images/cart-icon.svg" alt="Cart Button"></a>
+                    <div class="item-counter"></div>
+                    </div>
                 </div>
 
                 <!--nav links-->
@@ -98,48 +101,56 @@
                         <p class="product">Dresses</p>
                         <h3 class="product-name">Stretch Knit Dress</h3>
                         <p>$169.00</p>
+                        <button class="add-to-cart">Add to Cart</button>
                     </div>
                     <div class="carousel-cell">
                         <img src="images/cotton-blue-shirt.jpg" alt="product1">
                         <p class="product">Shirts</p>
                         <h3 class="product-name">Cotton Blue Shirt</h3>
                         <p>$89.00</p>
+                        <button class="add-to-cart">Add to Cart</button>
                     </div>
                     <div class="carousel-cell">                
                         <img src="images/checked-stretch-dress.jpg" alt="product2">
                         <p class="product">Dresses</p>
                         <h3 class="product-name">Checked Stretch Dress</h3>
                         <p>$129.00</p>
+                        <button class="add-to-cart">Add to Cart</button>
                     </div>
                     <div class="carousel-cell">                
                         <img src="images/blue-hipster-backpack.jpg" alt="product3">
                         <p class="product">Bags</p>
                         <h3 class="product-name">Blue Hipster Backpack</h3>
                         <p>$69.00</p> 
+                        <button class="add-to-cart">Add to Cart</button>
                     </div>
                     <div class="carousel-cell">           
                         <img src="images/demin-overall-shorts.jpg" alt="product4">
                         <p class="product">Denim</p>
                         <h3 class="product-name">Denim Overall Shorts</h3>
-                        <p>$89.00</p>     
+                        <p>$89.00</p> 
+                        <button class="add-to-cart">Add to Cart</button>    
                     </div> 
                     <div class="carousel-cell">
                         <img src="images/pink-dotted-dress.jpg" alt="product5">
                         <p class="product">Dresses</p>
                         <h3 class="product-name">Pink Dotted Dress</h3>
-                        <p>$99.00</p>   
+                        <p>$99.00</p> 
+                        <button class="add-to-cart">Add to Cart</button>  
                     </div>
                     <div class="carousel-cell">         
                         <img src="images/blue-silk-dress.jpg" alt="product6">
                         <p class="product">Dresses</p>
                         <h3 class="product-name">Blue Silk Dress</h3>
                         <p>$119.00</p>
+                        <button class="add-to-cart">Add to Cart</button>
                     </div>
                     <div class="carousel-cell">
                         <img src="images/cotton-yellow-tshirt.jpg" alt="product7">
                         <p class="product">Shirts</p>
                         <h3 class="product-name">Cotton Yellow Tshirt</h3>
                         <p>$39.00</p>
+                        <button class="add-to-cart">Add to Cart</button>
                     </div>
                 </div>
             </div> <!--EOF carousel-->
@@ -208,7 +219,7 @@
             contain: true,
             draggable: true,
             prevNextButtons: false,
-            // autoPlay: true,
+            autoPlay: true,
             setGallerySize: true,
             freeScroll: false,
             groupCells: true
