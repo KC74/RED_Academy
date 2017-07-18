@@ -21,7 +21,8 @@ time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;
+    vertical-align: baseline;
+    -webkit-text-size-adjust: none;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -114,12 +115,13 @@ a:hover {
 .flex-container--fixed {
     top: 0;
     background-color: white;
-    position: sticky;
+    position: fixed;
     z-index: 9999;
 }
 
 .flex-container--no-wrap {
     flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
 }
 
 .flex-wrapper--space-between {
@@ -173,6 +175,7 @@ header {
     font-size: 0.7rem;
     position: absolute;
     transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
     top: 50%;
     left: 50%;
 }
@@ -290,6 +293,8 @@ nav li {
 .product-categories {
     display: flex;
     flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    display: -ms-flexbox;
 }
 
 .category-wide {
@@ -297,6 +302,7 @@ nav li {
     padding-bottom: 50%;   
     position: relative;
     max-width: 100%;
+    -ms-flex-preferred-size: 100%;
 }
 
 .category-square {
@@ -304,6 +310,7 @@ nav li {
     position: relative;
     flex-basis: 50%;
     max-width: 100%;
+    -ms-flex-preferred-size: 50%;
 }
 
  .category-wide.category-border {
@@ -329,6 +336,7 @@ nav li {
     left: 50%;
     text-transform: uppercase;
     transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
     font-size: 1.2rem;
 }
 
@@ -574,11 +582,13 @@ footer a {
     .category-wide {
         flex-basis: 50%;
         padding-bottom: 0;
+        -ms-flex-preferred-size: 50%;
     }
 
     .category-square {
         flex-basis: 25%;
         padding-bottom: 25%;
+        -ms-flex-preferred-size: 25%;
     }
 
     .category-name {
