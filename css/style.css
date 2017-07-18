@@ -235,6 +235,10 @@ nav li {
 
  /* banner styles */
 
+.banner h2 {
+    display: none;
+}
+
 .banner {
     background: 
     linear-gradient(180deg,rgba(0,0,0,.25) 0,rgba(0,0,0,.25)),
@@ -276,6 +280,10 @@ nav li {
 }
 
  /* category styles */
+
+.categories h2 {
+    display: none;
+}
 
 .categories a {
     text-decoration: none;
@@ -656,13 +664,11 @@ footer a {
     }
 
     .footer-about-us {
-        align-items: left;
         text-align: left;
         justify-content: space-between;
     } 
 
     .social-media-footer {
-        align-self: right;
         margin: 0 2rem;
     }
 
@@ -738,7 +744,6 @@ footer a {
 
      .sign-up-form input[type=email] {
         width: 75%;
-        position: aboslute;
      }
 }
 /* 
