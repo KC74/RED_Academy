@@ -443,7 +443,7 @@ nav li {
 }
 
 input[type=email] {
-    padding: .5rem 1.75rem;
+    padding: 0.50rem 1.75rem;
     box-sizing: border-box;
     border: 0;
     border-radius: 25px;
@@ -456,16 +456,16 @@ input[type=email] {
 input[type=submit] {
     border-radius: 25px;
     background-color: #e2574c;
-    color: #fff;
     cursor: pointer;
-    font-weight: bold;
-    padding: .25rem 1.5rem;
-    position: absolute;
-    right: .25rem;
+    font-weight: bold; 
+    padding: 0.25rem 1.50rem;
+    right: 0.25rem;
+    top: 0.25rem;
     border: 0;
-    top: .25rem;
+    position: absolute;
     font-size: 1rem;
     line-height: 2;
+    color: white;
     font-family: "Raleway-Light";
 }
 
