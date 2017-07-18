@@ -1,6 +1,6 @@
 # Project Aloha
 
-Project Aloha is a learning project based on the original [https://redacademy.github.io/aloha-apparel/](RED Academy - Aloha Apparel) which models after an online clothing & accessories retail store. The purpose was to "adequately reflect the designer's vision for the website" using a combination of HTML, CSS, and JS.
+Project Aloha is a learning project based on the original [RED Academy - Aloha Apparel] (https://redacademy.github.io/aloha-apparel/) which models after an online clothing & accessories retail store. The purpose was to "adequately reflect the designer's vision for the website" using a combination of HTML, CSS, and JS.
 
 ### Project Demonstrations
 
