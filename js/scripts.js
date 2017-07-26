@@ -44,4 +44,11 @@ $(document).ready(function(){
         scrollTop: $( $.attr(this, 'href') ).offset().top - $('header').height() + 5
     }, 500);
   });
+
+    // Fix "Skip Link" Focus in Webkit
+  $(function() {
+    $("a[href^='#']").not("a[href='#']").click(function() {
+        $("#"+$(this).attr("href").slice(1)+"").focus();
+    });
+  });
 });

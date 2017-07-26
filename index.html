@@ -18,6 +18,7 @@
   
 </head>
 <body>
+    <a class="screen-reader-text" href="#shop">Skip to content</a>
 
     <div class="flex-container flex-container--center-all flex-container--fixed">
             <header class="flex-wrapper flex-wrapper--space-between">
@@ -65,7 +66,7 @@
 
 
         <!--shop catagories-->
-        <section id="shop" class="categories">
+        <section id="shop" class="categories" tabindex="-1">
             <h2>Product Categories</h2>
              <div class="product-categories"> 
                 <div class="category-wide category-border cat-pos-1">
@@ -213,6 +214,7 @@
         </footer> <!--EOF foooter-->
     <script src="js/scripts.js"></script>
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script src="js/tota11y.min.js"></script>    
     <script>
         $('.main-carousel').flickity({
             // options
