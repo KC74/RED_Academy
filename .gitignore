@@ -6,7 +6,6 @@
 # Icon must end with two \r
 Icon
 
-
 # Thumbnails
 ._*
 
@@ -48,3 +47,6 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
+# CUSTOM IGNORES
+js/tota11y.min.js

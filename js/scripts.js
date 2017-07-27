@@ -45,10 +45,21 @@ $(document).ready(function(){
     }, 500);
   });
 
-    // Fix "Skip Link" Focus in Webkit
-  $(function() {
-    $("a[href^='#']").not("a[href='#']").click(function() {
-        $("#"+$(this).attr("href").slice(1)+"").focus();
-    });
+  // Fix "Skip Link" Focus in Webkit
+  $("a[href^='#']").not("a[href='#']").click(function() {
+    $("#"+$(this).attr("href").slice(1)+"").focus();
+  });
+
+  // Flickity Scripts
+  $('.main-carousel').flickity({
+    // options
+    cellAlign: 'center',
+    contain: true,
+    draggable: true,
+    prevNextButtons: false,
+    autoPlay: true,
+    setGallerySize: true,
+    freeScroll: false,
+    groupCells: true
   });
 });
