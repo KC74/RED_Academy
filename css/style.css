@@ -244,12 +244,12 @@ nav li {
     linear-gradient(180deg,rgba(0,0,0,.25) 0,rgba(0,0,0,.25)),
     url('../images/banner-girl.png') no-repeat bottom,
     url('../images/flower-bkgd.jpg') no-repeat center;
-    background-size: cover, 180px, cover;
+    background-size: cover, 300px, cover;
     height: 400px;
     width: 100vw;
     color: white;
     text-shadow: 2px 2px 4px hsla(0,0%,40%,.8);
-     line-height: 1; 
+    line-height: 1; 
 }
 
 .banner .collection {
@@ -358,7 +358,7 @@ nav li {
 .cat-pos-2 {
     background:
     linear-gradient(180deg,rgba(0,0,0,.25) 0,rgba(0,0,0,.25)), 
-    url("../images/womens-category.jpg") no-repeat 50%;
+    url(../images/womens-category.jpg) no-repeat 50%;
     background-size: cover, cover;
 }
 
