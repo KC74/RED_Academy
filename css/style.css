@@ -379,7 +379,7 @@ nav li {
 .cat-pos-5 {
     background: 
     linear-gradient(180deg,rgba(0,0,0,.25) 0,rgba(0,0,0,.25)),
-    url(../images/bags-category.jpg.) no-repeat 50%;
+    url(../images/bags-category.jpg) no-repeat 50%;
     background-size: cover,cover;
 }
 
