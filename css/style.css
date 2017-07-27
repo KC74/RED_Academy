@@ -358,35 +358,35 @@ nav li {
 .cat-pos-2 {
     background:
     linear-gradient(180deg,rgba(0,0,0,.25) 0,rgba(0,0,0,.25)), 
-    url(../images/womens-category.jpg) no-repeat 50%;
+    url(../images/trends-category.jpg) no-repeat 50%;
     background-size: cover, cover;
 }
 
 .cat-pos-3 {
     background: 
     linear-gradient(180deg,rgba(0,0,0,.25) 0,rgba(0,0,0,.25)), 
-    url(../images/trends-category.jpg) no-repeat 50%;
+    url(../images/glasses-category.jpg) no-repeat 50%;
     background-size: cover,cover;
 }
 
 .cat-pos-4 {
     background: 
     linear-gradient(180deg,rgba(0,0,0,.25) 0,rgba(0,0,0,.25)),
-    url(../images/glasses-category.jpg) no-repeat 50%;
+    url(../images/sale-category.jpg) no-repeat 50%;
     background-size: cover,cover;
 }
 
 .cat-pos-5 {
     background: 
     linear-gradient(180deg,rgba(0,0,0,.25) 0,rgba(0,0,0,.25)),
-    url(../images/sale-category.jpg) no-repeat 50%;
+    url(../images/bags-category.jpg.) no-repeat 50%;
     background-size: cover,cover;
 }
 
 .cat-pos-6 {
     background: 
     linear-gradient(180deg,rgba(0,0,0,.25) 0,rgba(0,0,0,.25)),
-    url(../images/bags-category.jpg) no-repeat 50%;
+    url(../images/womens-category.jpg) no-repeat 50%;
     background-size: cover,cover;
 }  /* EOF category styles */
 
