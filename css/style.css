@@ -242,9 +242,9 @@ nav li {
 .banner {
     background: 
     linear-gradient(180deg,rgba(0,0,0,.25) 0,rgba(0,0,0,.25)),
-    url('../images/banner-girl.png') no-repeat center,
+    url('../images/banner-girl.png') no-repeat bottom,
     url('../images/flower-bkgd.jpg') no-repeat center;
-    background-size: cover, contain, cover;
+    background-size: cover, 180px, cover;
     height: 400px;
     width: 100vw;
     color: white;
