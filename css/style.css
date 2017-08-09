@@ -485,6 +485,10 @@ input[type=submit] {
     font-family: "Raleway-Light";
 }
 
+input[type=submit]:hover {
+    background-color: #b64036;
+}
+
 /* footer stuff */
 
 footer {

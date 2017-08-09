@@ -11,7 +11,7 @@ $(document).ready(function(){
     event.preventDefault();
 
     // check for validation
-    if (!isValidEmailAddress($('input[type=email]').val())) {
+    if (!isValidEmailAddress($('#email-address').val())) {
       alert('Please provide a valid email address.');
     } else {
       // thank user for subbing
@@ -62,4 +62,5 @@ $(document).ready(function(){
     freeScroll: false,
     groupCells: true
   });
+
 });
