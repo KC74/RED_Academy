@@ -72,12 +72,11 @@ body {
 } 
 
 a:hover {
-    color: #b64036;
+     color: #b64036;
 }
 
 * {
     box-sizing: border-box;
-    /* outline: none; */
 }
 
 /* content padding styles  */
@@ -242,10 +241,10 @@ nav li {
 .banner {
     background: 
     linear-gradient(180deg,rgba(0,0,0,.25) 0,rgba(0,0,0,.25)),
-    url('../images/banner-girl.png') no-repeat bottom,
+    url('../images/banner-girl.png') no-repeat center 120px,
     url('../images/flower-bkgd.jpg') no-repeat center;
-    background-size: cover, 300px, cover;
-    height: 400px;
+    background-size: cover, 40%, cover;
+    height: 450px;
     width: 100vw;
     color: white;
     text-shadow: 2px 2px 4px hsla(0,0%,40%,.8);
@@ -294,15 +293,16 @@ nav li {
     text-shadow: 2px 2px 4px hsla(0,0%,39%,.8);
 } 
 
-.categories a:hover {
-    color: #b64036;
-} 
 
 .product-categories {
     display: flex;
     flex-wrap: wrap;
     -ms-flex-wrap: wrap;
     display: -ms-flexbox;
+}
+
+.product-categories a:hover {
+    color: #f5ebc6;
 }
 
 .category-wide {
@@ -437,7 +437,7 @@ nav li {
  /* newsletter styles */
 
 .newsletter {
-    background: linear-gradient(180deg,rgba(0,0,0,.15) 0,rgba(0,0,0,.15)),url(../images/wave-bkgd.jpg) no-repeat bottom;
+    background: linear-gradient(180deg,rgba(0,0,0,.15) 0,rgba(0,0,0,.15)),url(../images/wave-bkgd.jpg) no-repeat center 60px;
     color: #fff;
     margin: 0 auto;
     margin-bottom: 8px;
@@ -576,6 +576,11 @@ footer a {
         border: none;
         margin: 0;
         padding: 0;
+    }
+
+    /* Banner Styles */
+    .banner {
+        height: 450px;
     }
 
      /* cart styles */
