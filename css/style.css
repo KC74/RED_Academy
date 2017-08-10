@@ -437,7 +437,7 @@ nav li {
  /* newsletter styles */
 
 .newsletter {
-    background: linear-gradient(180deg,rgba(0,0,0,.15) 0,rgba(0,0,0,.15)),url(../images/wave-bkgd.jpg) no-repeat center 60px;
+    background: linear-gradient(180deg,rgba(0,0,0,.15) 0,rgba(0,0,0,.15)),url(../images/wave-bkgd.jpg) no-repeat bottom;
     color: #fff;
     margin: 0 auto;
     margin-bottom: 8px;
@@ -580,6 +580,11 @@ footer a {
 
     /* Banner Styles */
     .banner {
+        background: 
+        linear-gradient(180deg,rgba(0,0,0,.25) 0,rgba(0,0,0,.25)),
+        url('../images/banner-girl.png') no-repeat center 100px,
+        url('../images/flower-bkgd.jpg') no-repeat center;
+        background-size: cover, 20%, cover;
         height: 450px;
     }
 
@@ -726,6 +731,11 @@ footer a {
     }
 
     .banner {
+        background: 
+        linear-gradient(180deg,rgba(0,0,0,.25) 0,rgba(0,0,0,.25)),
+        url('../images/banner-girl.png') no-repeat center 100px,
+        url('../images/flower-bkgd.jpg') no-repeat center;
+        background-size: cover, 18%, cover;
         height: 550px;
     }
 
